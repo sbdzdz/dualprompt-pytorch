@@ -18,6 +18,6 @@ python -m torch.distributed.launch \
         --use_env main.py \
         imr_dualprompt \
         --model vit_base_patch16_224 \
-        --batch-size 24 \
-        --data-path /local_datasets/ \
-        --output_dir ./output 
+        --batch_size 24 \
+        --data_path /local_datasets/ \
+        --output_dir ./output
